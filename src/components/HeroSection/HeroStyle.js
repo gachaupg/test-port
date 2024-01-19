@@ -51,7 +51,7 @@ export const HeroInnerContainer = styled.div`
   max-width: 1100px;
 
   @media (max-width: 960px) {
-    flex-direction: column;
+    flex-wrap: wrap-reverse;
   }
 `;
 export const HeroLeftContainer = styled.div`

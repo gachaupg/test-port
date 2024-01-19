@@ -25,6 +25,7 @@ const HeroSection = () => {
                                         loop: true,
                                     }}
                                 />
+                                
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
@@ -33,7 +34,9 @@ const HeroSection = () => {
 
                     <HeroRightContainer id="Right">
 
-                        <Img src={HeroImg} alt="hero-image" />
+                        <Img src="https://res.cloudinary.com/pitz/image/upload/v1696329595/peter/ukuvhbeamfpi7w6piyhx.jpg" style={{
+                            objectFit:'contain'
+                        }} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
 
