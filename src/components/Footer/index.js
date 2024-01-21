@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; {ne Date().getFullYear()} peter gachau. All rights reserved.
+          &copy; {new Date().getFullYear()} peter gachau. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
